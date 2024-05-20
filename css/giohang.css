@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+.san-pham {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.san-pham img {
+    width: 100px;
+    height: auto;
+}
+
+#gio-hang {
+    margin-top: 40px;
+}
+
+.danh-sach-san-pham {
+    list-style: none;
+    padding: 0;
+}
+
+.danh-sach-san-pham li {
+    margin-bottom: 10px;
+}
+
+.tong-tien {
+    font-weight: bold;
+}
