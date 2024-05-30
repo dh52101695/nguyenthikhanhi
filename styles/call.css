@@ -1,0 +1,155 @@
+
+
+.footer__content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer__content img {
+    width: 100%;
+    height: 400px;
+}
+
+.footer__content h2 {
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    top: 20%;
+    left: 37%;
+    right: 20%;
+}
+
+.footer__content p {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    top: 35%;
+    left: 40%;
+    right: 20%;
+}
+
+.link {
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    top: 50%;
+    left: 42%;
+    right: 20%;
+    font-size: 30px;
+}
+
+.link a {
+    margin-right: 10px;
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content__info-item {
+    width: 50%;
+    padding: 25px;
+    margin-right: 10px;
+}
+
+.content__info-item-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content__info-item-2 .content__info-info {
+    padding: 10px;
+}
+
+.content-btn {
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.content-btn:hover {
+    background-color: #ccc;
+    color: white;
+    border-radius: 15px;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 0 1px 3.125rem rgba(0, 0, 0, 0.2);
+}
+
+.local h3 {
+    margin-top: 10px;
+}
+
+.local h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.local iframe {
+    width: 60%;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 140px;
+    background-image: linear-gradient(0,#08090a,#25406e);
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-list {
+    display: inline-block;
+    margin: 4px 0 0 0;
+}
+
+.footer__nav-item {
+    margin: 0 8px;
+    position: relative;
+    top: 20%;
+}
+
+.footer__nav-item ,
+.footer__nav-link {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    color: #bac2cf;
+}
+
+.footer__nav-item .footer__nav-link-icon {
+    font-size: 30px;
+}
+
+.footer-mail {
+    height: 50%;
+    margin-left: 25px;
+    padding-top: 22px;
+}
+.footer-mail h3 {
+    
+    color: #42ffd6;
+}

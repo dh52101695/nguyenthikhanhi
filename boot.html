@@ -10,17 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@600&family=Kanit&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="path/to/fork-awesome/css/fork-awesome.min.css">
+
     <link rel="stylesheet" href="css/style_chitiet.css" />
+    
+    
+    
 </head>
 
 <body>
     <div id="container">
-        <div class="check">adkg</div>
 
         <!-- Hình Banner hoặc Logo  -->
         <div id="header">
-            <div id="banner_logo"> 
-                <a href="#"> <img src="img/logo/logo_boot.png"  alt="" style="border-radius: 10px;" width="1000px" height="300px" ></a>
+            <div id="banner_logo">
+                <a href="index.html"> <img src="img/logo/logo_boot.png"  alt="" style="border-radius: 10px;" width="1000px" height="300px" ></a>
             </div>
         </div>
 
@@ -38,19 +41,19 @@
                 </div>
 
                 <div class="box">
-                    <div class="title">SP Khuyến mãi</div>
+                    <div class="title">Khuyến mãi</div>
                     <div class="box_content" style="height:190px;">
-                        <marquee direction="up" height="190">
-                            <div class="pro_title">Nhìn xấu quá nên không ai mua </div>
-                            <div style="text-align:center"><img src="img/boot/xấu.webp" height="120" /></div>
-                            <div class="oldprice">105.000</div>
-                            <div class="pro_price">63.000</div>
+                        <marquee id="promotionMarquee" direction="up" height="190">
+                            <div class="pro_title">Giày nặng nên giảm giá nè </div>
+                            <div style="text-align:center"><img src="img/boot/ghê.webp" height="120" /></div>
+                            <div class="oldprice">105.000đ</div>
+                            <div class="pro_price">63.000đ</div>
                             <div style="clear:both"></div>
                             <hr color="#6da6b1" />
-                            <div class="pro_title">Giày gì nhìn như đôi ủng đi chợ </div>
-                            <div style="text-align:center"><img src="img/boot/ghê.webp" height="120" /></div>
-                            <div class="oldprice">108.000</div>
-                            <div class="pro_price">86.400</div>
+                            <div class="pro_title">Nhìn nam tính quá nên giảm giá </div>
+                            <div style="text-align:center"><img src="img/boot/xấu.webp" height="120" /></div>
+                            <div class="oldprice">108.000đ</div>
+                            <div class="pro_price">86.400đ</div>
                             <div style="clear:both"></div>
                         </marquee>
                     </div>
@@ -64,103 +67,133 @@
             <div class="center_content">
             	<div class="product_box">
                 	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title">nữ chiến binh trắng tinh</div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ chiến binh màu trắng.jpg" /></a></div>
-                        <div class="price2">75.100</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
+                     
+                        <div class="pro_title">Nữ chiến binh </div>
+                        <div class="pro_img"><a href="img/boot/boot nữ chiến binh màu trắng.jpg"><img src="img/boot/boot nữ chiến binh màu trắng.jpg" /></a></div>
+                        <a href="#" data-price="275100" onclick="addToCart(this)">
+                            <div class="price2">275.100đ</div><div class="pro_cart">
+                            <img src="" width="9" height="9" /> <button>Mua ngay</button>
+                        </a>
                         <div style="clear:both"></div>
-                    </div>
-                    <div class="pro_box_bot"></div>
+                    </div> 
                 </div>
+
                 <div class="product_box">
                 	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title"><a href="#">boot nữ cổ cao trắng tinh</a></div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ cổ cao.jpg" /></a></div>
-                        <div class="price2">110.300</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
-                        <div style="clear:both"></div>                
-                    </div>
-                    <div class="pro_box_bot"></div>
+                        <div class="pro_title">Hồng Nam tính</div>
+                        <div class="pro_img"><a href="img/boot/boot nữ cổ cao.jpg"><img src="img/boot/boot nữ cổ cao.jpg" /></a></div>
+                        <a href="#" data-price="310300" onclick="addToCart(this)">
+                            <div class="price2">310.300đ</div><div class="pro_cart"> 
+                            <img src="images/layout/cart.gif" width="9" height="9" /> <button>Mua ngay</button>
+                        </a>
+                        <div style="clear:both"></div>
+                        <div class="pro_box_bot"></div>
+                    </div>  
                 </div>
                 
                 <div class="product_box">
                 	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title"><a href="#">boot nữ đế cao</a></div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ đế cao.webp" /></a></div>
-                        <div class="price2">90.500</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
-                        <div style="clear:both"></div>                
-                 	</div>
-                    <div class="pro_box_bot"></div>
+                        <div class="pro_title">Martin nâu</div>
+                        <div class="pro_img"><a href="img/boot/boot nữ martin màu nâu.jpg"><img src="img/boot/boot nữ martin màu nâu.jpg" /></a></div>
+                        <a href="#" data-price="290300" onclick="addToCart(this)">
+                            <div class="price2">290.300đ</div><div class="pro_cart"> 
+                            <img src="images/layout/cart.gif" width="9" height="9" /> <button>Mua ngay</button>
+                        </a>
+                        <div style="clear:both"></div>
+                        <div class="pro_box_bot"></div>
+                    </div>  
                 </div>
-            </div>
-            
-            <div style="clear:both"></div>
             
             <div class="center_title">Sản phẩm bán chạy</div>
-            <div class="center_content">
-            	<div class="product_box">
-                	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title"><a href="#">martin màu nâu </a></div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ martin màu nâu.jpg" /></a></div>
-                        <div class="price2">184.000</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
-                        <div style="clear:both"></div>
-                    </div>
+            <div class="product_box">
+                <div class="pro_box_top"></div>
+                    <div class="pro_title">Martin đen</div>
+                    <div class="pro_img"><a href="img/boot/boot nữ MT đen.jpeg"><img src="img/boot/boot nữ MT đen.jpeg" /></a></div>
+                    <a href="#" data-price="623000" onclick="addToCart(this)">
+                        <div class="price2">623.000đ</div><div class="pro_cart"> 
+                        <img src="images/layout/cart.gif" width="9" height="9" /><button>Mua ngay</button>
+                        
+                    </a>
+                    <div style="clear:both"></div>
                     <div class="pro_box_bot"></div>
-                </div>
-                <div class="product_box">
-                	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title"><a href="#">boot  đen xì</a></div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ MT đen.jpeg" /></a></div>
-                        <div class="price2">310.000</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
-                        <div style="clear:both"></div>                
-                    </div>
+                </div>  
+            </div>
+            <div class="product_box">
+                <div class="pro_box_top"></div>
+                    <div class="pro_title">Wheat nubock</div>
+                    <div class="pro_img"><a href="img/boot/boot nữ wheat nubock.webp"><img src="img/boot/boot nữ wheat nubock.webp" /></a></div>
+                    <a href="#" data-price="400102" onclick="addToCart(this)">
+                        <div class="price2">400.102đ</div><div class="pro_cart"> 
+                        <img src="images/layout/cart.gif" width="9" height="9" /> <button>Mua ngay</button>
+                    </a>
+                    <div style="clear:both"></div>
                     <div class="pro_box_bot"></div>
-                </div>
-                
-                <div class="product_box">
-                	<div class="pro_box_top"></div>
-                    <div class="pro_box_mid">
-                        <div class="pro_title"><a href="#">wheat nubock</a></div>
-                        <div class="pro_img"><a href="#"><img src="img/boot/boot nữ wheat nubock.webp" /></a></div>
-                        <div class="price2">199.000</div><div class="pro_cart"><a href="#"><img src="images/layout/cart.gif" width="9" height="9" /> Đặt mua</a></div>
-                        <div style="clear:both"></div>                
-                 	</div>
+                </div>  
+            </div>
+            <div class="product_box">
+                <div class="pro_box_top"></div>
+                    <div class="pro_title">Đen đế cao</div>
+                    <div class="pro_img"><a href="img/boot/boot nữ đế cao.webp"><img src="img/boot/boot nữ đế cao.webp" /></a></div>
+                    <a href="#" data-price="610300" onclick="addToCart(this)">
+                        <div class="price2">610.300đ</div><div class="pro_cart"> 
+                            <img src="images/layout/cart.gif" width="9" height="9" /> <button>Mua ngay</button>
+                            <div class="col-lg-3">
+                                <div class="categories__item set-bg" data-setbg="img/categories/Book_2.jpg">      
+                                </div>
+                            </div>
+                    </a>
+                    <div style="clear:both"></div>
                     <div class="pro_box_bot"></div>
-                </div>
+                </div>  
+            </div>
             </div>  
         
             </div>
-            
+    
             <!-- MENU bên phải  -->
             <div id="right">
                 <div class="cart">
-                  <i id="cart-icon" class="fa fa-shopping-cart" onclick="window.location.href='thanhtoan.html'"></i>
+                  <i id="cart-icon" class="fa fa-shopping-cart" onclick="window.location.href='thongtinthanhtoan.html'"></i>
                   <span class="cart-total">Tổng tiền: 0đ</span><br>
                   <span class="cart-total">Tổng sản phẩm: <span id="total-quantity">0</span></span><br>
-                  <a href="thanhtoan.html" class="cart-view-btn">Xem giỏ hàng</a>
+                  <a href="thongtinthanhtoan.html" class="cart-view-btn">Xem giỏ hàng</a>
                 </div>
               </div>
             </div>
 
             
             <div style="clear:both; height:10px;"></div>
+
             <div  id="menu">
                 <div id="toggle">
                     <i class="fas fa-bars"></i>
                 </div>
                 <nav class="varela-round-regular">    
                     <ul class="main-menu">
-                        <li><a href="trangchu.html">Trang chủ</a></li>
-                        <li><a href="thethao.html">Giày thể thao</a></li>
-                        <li><a href="caogot.html">Giày cao gót</a></li>
-                        <li><a href="boot.html">Giày boot</a></li>
-                        <li><a href="lolita.html">Giày lolita</a></li>
-                        <li><a href="sandal.html">Giày Sandal</a></li>
-                        <li><a href="congso.html">Giày công sở</a></li>
-                        <li><a href="dexuong.html">Giày đế xuồng</a></li>
+                        <li class="footer__nav-item">
+                            <a href="index.html" class="footer__nav-link header__nav-item-link--separate">TRANG CHỦ</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="thethao.html" class="footer__nav-link header__nav-item-link--separate">GIÀY THỂ THAO</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="caogot.html" class="footer__nav-link header__nav-item-link--separate">GIÀY CAO GÓT</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="lolita.html" class="footer__nav-link header__nav-item-link--separate">GIÀY LOLITA</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="boot.html" class="footer__nav-link header__nav-item-link--separate">GIÀY BOOT</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="sandal.html" class="footer__nav-link header__nav-item-link--separate">GIÀY SANDAL</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="dexuong.html" class="footer__nav-link header__nav-item-link--separate">GIÀY ĐẾ XUỒNG</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="congso.html" class="footer__nav-link header__nav-item-link--separate">GIÀY CÔNG SỞ</a>
+                        </li>
                     </ul>
                 </nav>
     

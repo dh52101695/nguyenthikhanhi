@@ -3,467 +3,624 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trangchu</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/base.css">
 
-    <link rel="stylesheet" href="./css/style_index.css">
-
-    <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Varela+Round&display=swap" rel="stylesheet">
-    <!-- link carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./carousel.css">
-    <!-- link-icon-service -->
-    <link href="./assets/img/favicon.png" rel="icon" type="image/x-icon">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet" href="font/fontawesome-free-6.5.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    <title>Website Bán Giày</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
 </head>
-<body>
-    
-    
-    <div id="wrapper">
-        <div class="chua-02">
-            <div id="header">
-                <div class="logo">
-                    <img src="./img/logo/logoSAm.jpg" alt="">
-                </div>
-    
-                <div id="chua-search">
-                    <form action="" method="post">
-                        <input required type="text" id="search-text" placeholder="Nhập sản phẩm muốn tìm..." >
-                        <button id="btn-search">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-                <div id="right">
-                    <div class="cart">
-                      <i id="cart-icon" class="fa fa-shopping-cart" onclick="window.location.href='thanhtoan.html'"></i>
-                      <span class="cart-total">Tổng tiền: 0đ</span><br>
-                      <span class="cart-total">Tổng sản phẩm: <span id="total-quantity">0</span></span><br>
-                      <a href="thanhtoan.html" class="cart-view-btn">Xem giỏ hàng</a>
-                    </div>
-                  </div>
-                
-                <div class="header">
-                    <div class="product-item">
-                      <div class="product-top">
-                        <a href="" class="product-thumb hover-text">
-                          
-                         
-                        </a>
-                        
-                      </div>
-                      <div class="product-info">
-                        <div class="center-text">
-                          </div>
+    <body>
+        <div class="web">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="login.html" class="header__nav-item-link header__nav-item-link--separate">Đăng Nhập</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="Create.html" class="header__nav-item-link header__nav-item-link--separate">Đăng Ký</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link header__nav-item-link--separate"><i class="fa-regular fa-envelope"></i> EMAIL</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link"><i class="fa-solid fa-phone"></i> ########### / ##########</a>
+                            </li>
+                        </ul>
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link header__nav-item-link--separate">Giới Thiệu</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-item-link header__nav-item-link--separate">Cửa Hàng</a>
+                            </li>
+                            <li class="header__nav-item"><!--<span class="header__nav--NOcursor--hover">Liên Hệ</span>-->
+                                    <a href="call.html" class="header__nav-item-link header__nav-item-link--separate">Liên Hệ</a>
+                                    <a href="https://www.facebook.com/iamsam0310" class="header__nav--icon--link"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="nhi_ng__" class="header__nav--icon--link"><i class="fa-brands fa-instagram"></i></a> 
+                                    <a href="" class="header__nav--icon--link"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="" class="header__nav--icon--link"><i class="fa-regular fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-with-search">
+                        <div class="header__logo">
+                                <img class="header__logo-img" src="img/logo/logoSAm.jpg">
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                
-                 
-            <!-- hết header -->
-    
-            <div  id="menu">
-                <div id="toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <nav class="varela-round-regular">    
-                    <ul class="main-menu">
-                        <li><a href="trangchu.html">Trang chủ</a></li>
-                        <li><a href="thethao.html">Giày thể thao</a></li>
-                        <li><a href="caogot.html">Giày cao gót</a></li>
-                        <li><a href="boot.html">Giày boot</a></li>
-                        <li><a href="lolita.html">Giày lolita</a></li>
-                        <li><a href="sandal.html">Giày Sandal</a></li>
-                        <li><a href="congso.html">Giày công sở</a></li>
-                        <li><a href="dexuong.html">Giày đế xuồng</a></li>
-                    </ul>
-                </nav>
-    
-            </div>
-        </div>
-        
-        <!-- hết menu -->
 
-        <div id="main-content">
-            <!-- carousel -->
-            <div class="carousel-content">
-                <div id="carousel">
-                    <div class="owl-carousel">
-                        <div class="item"><img src="./slider/img/love.jpg" alt=""></div>
-                        <div class="item"><img src="./slider/img/giaythethao.jpg" alt=""></div>
-                        <div class="item"><img src="./slider/img/giaysandal.jpg" alt=""></div>
-                        <div class="item"><img src="./slider/img/giaylolita.jpg" alt=""></div>
-                        <div class="item"><img src="./slider/img/giaycongso.webp" alt=""></div>
-                      </div>
-                </div>
-                 <!-- home-service -->
-
-            <div id="home-service">
-                <div class="chua-service">
-                    <div class="service">
-                        <i class="fa-solid fa-truck"></i>
-                        <h4>GIAO HÀNG NHANH</h4>
-                        <h5>Cho tất cả đơn hàng</h5>
-                    </div>
-                    <div class="service">
-                        <i class="fa-solid fa-shield-heart"></i>
-                        <h4>SẢN PHẨM AN TOÀN</h4>
-                        <h5>Cam kết chất lượng</h5>
-                    </div>
-                    <div class="service">
-                        <i class="fa-solid fa-headphones"></i>
-                        <h4>HỖ TRỢ 24/7</h4>
-                        <h5>Tất cả ngày trong tuần</h5>
-                    </div>
-                    <div class="service">
-                        <i class="fa-solid fa-money-check-dollar"></i>
-                        <h4>HOÀN LẠI TIỀN</h4>
-                        <h5>Nếu bạn không hài lòng</h5>
-                    </div>
-                </div>
-            </div>
-
-            <!-- show-products -->
-            <div id="show-procducts">
-                <div class="healine">
-                    <h3>Sản phẩm bán chạy</h3>
-                </div>
-                <ul class="products">
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="" class="product-thumb">
-                                    <img src="slider/img/adidas.webp" alt="">
-                                </a>
-                                <!-- mua ngay -->
-                    
-                            </div>
-                            <div class="product-info">
-                                <div class="center-text">
-                                    <div class="pro_box_top">
-                                    <div class="pro_img"></div>
-                                <a href="slider/img/adidas.webp" class="hover-color">Giày thể thao</a> <br><br>
-                                <a href="#" data-price="110300" onclick="addToCart(this)">
-                                <a href="" class="product-name" style="text-decoration: none;">Giày với thương hiệu adidas đơn giản và dễ dử dụng phù hợp mọi nơi</a>
-                                <div class="price2">75.100</div><div class="pro_cart">
-                                    <img src="images/layout/cart.gif" width="9" height="9" /><button>Mua ngay</button>
-                                </a>  
-                                    <div style="clear:both"></div>
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Lịch Sử Tìm Kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a href="#">adidas </a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="#">nike </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/gìay bẩn.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/gìay bẩn.jpg" class="hover-color">Giày thể thao</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Đôi giày với vẻ ngoài có vẽ bẩn nhưng lại rất được nhiều người ưa chuộn</a>
-                                    <div class="product-price">
-                                        373.000đ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/xịn.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                    <div class="product-info">
-                                        <div class="center-text">
-                                            <a href="slider/img/xịn.jpg" class="hover-color">Boot</a><br><br>
-                                            <a href="" class="product-name" style="text-decoration: none;">Một đôi boot được có 1 tiết kế đặt biệt kết hợp với giày cao gót</a>
-
-                                        <div class="product-price">
-                                            169.000đ (Đã bao gồm VAT)
-                                            <button class="add-to-cart-btn">Mua ngay</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/giaymlb.webp" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                        <a href="slider/img/giaymlb.webp" class="hover-color">Giày thể thao</a><br><br>
-                                        <a href="" class="product-name" style="text-decoration: none;">Đôi giày với thương hiệu MLB dáng đẹp và phù hợp với mọi lứa tuổi</a>
-                                        <div class="product-price">
-                                            137.000 ₫ (Đã bao gồm VAT)
-                                            <button class="add-to-cart-btn">Mua ngay</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/giaylolita.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/giaylolita.jpg" class="hover-color">lolita</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Đôi giày với phong cách búp bê công chúa phù hợp phối với những bộ váy ngắn</a>
-                                    <div class="product-price">
-                                        119.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/giaysandal.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/giaysandal.jpg" class="hover-color">Sandal</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Giày được ứng dụng nhiều đối với lứa tuổi học sinh thẩm mỹ và dể sử dụng</a>
+                            <div class="header__nav-item header__nav-item--has-notification">
+                                <a href="#" class="header__nav-item-link header__nav-item-link--separate">Thông Tin</a>
+                                <div class="header__notification">
+                                    <header class="header__notification--header">
+                                        <h3>Thông Tin Web</h3>
+                                    </header>
+                                    <ul class="header__notification--list">
+                                        <li class="header__notification--item">
+                                            <a href="#" class="header__notification--link">
+                                                <img src="" alt="" class="header__notification--img">
+                                                <div class="header__notification--info">
+                                                    <span class="header__notification--name">Phụ kiện</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notification--item">
+                                            <a href="#" class="header__notification--link">
+                                                <img src="" alt="" class="header__notification--img">
+                                                <div class="header__notification--info">
+                                                    <span class="header__notification--name">Dịch vụ vệ sinh giày</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notification--item">
+                                            <a href="#" class="header__notification--link">
+                                                <img src="" alt="" class="header__notification--img">
+                                                <div class="header__notification--info">
+                                                    <span class="header__notification--name">Đánh Giá sản phẩm</span>
+                                                </div>
+                                            </a>
+                                        </li>
                                         
-                                    <div class="product-price">
-                                        999.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
+                                    </ul>
                                 </div>
                             </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/caogot.webp" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/caogot.webp" class="hover-color">Giày cao gót</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Thật tuyệt vời khi được mang tuyệt phẩm này trong một buổi dạ tiệc sang trọng</a>
-                                    <div class="product-price">
-                                        311.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/boot.webp" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/boot.webp" class="hover-color">boot</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Với một màu đen huyền bí phù hợp với những bộ trang phục và phong cách cá tính</a>
-                                    <div class="product-price">
-                                        540.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/bánh mì.webp" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/bánh mì.webp" class="hover-color">Giày đế xuồng</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">một đôi giày đế xuồng được được thiết kế pha lẫn với sandal phù hợp cho những nấm lùn</a>
-                                    <div class="product-price">
-                                        99.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="slider/img/giaycongso.webp" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="slider/img/giaycongso.webp" class="hover-color">Giày công sở</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Phù hợp với những công ty. Đơn giản,dễ sử dụng và dễ nhìn</a>
-                                    <div class="product-price">
-                                        99.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="img/caogot/đơn giản.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="img/caogot/đơn giản.jpg" class="hover-color">Giày cao gót</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Với thiết kế sang trọng đơn giản phù hợp với tất cả các lứa tuổi.</a>
-                                    <div class="product-price">
-                                        311.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </li>
-                    </li>
-                    <li>
-                        <li>
-                            <div class="product-item">
-                                <div class="product-top">
-                                    <a href="" class="product-thumb">
-                                        <img src="img/boot/boot nữ martin màu nâu.jpg" alt="">
-                                    </a>
-                                    <!-- mua ngay -->
-                        
-                                </div>
-                                <div class="product-info">
-                                    <div class="center-text">
-                                    <a href="img/boot/boot nữ martin màu nâu.jpg" class="hover-color">Boot</a><br><br>
-                                    <a href="" class="product-name" style="text-decoration: none;">Đôi boot cá tính này thường được sử dụng với mục đích đi cưỡi ngựa
-                                         bởi vì nhìn nó giống đôi giày của 1 người cao bồi
-                                        </a>
-                                    <div class="product-price">
-                                        73.000 ₫ (Đã bao gồm VAT)
-                                        <button class="add-to-cart-btn">Mua ngay</button>
-                                    </div>
-                                </div>
-                                <script src="js/script.js"></script> 
-                            </div>
-                            </div>
-                             
-                            </div>
-                        </li>
-                    </li>
+                            <div class="header__search-option">
+                                <span class="header__search-option-label">Tất Cả</span>
+                                <i class="header__search-option-icon fa-solid fa-caret-down"></i>
+                                <ul class="header__search-selected">
+                                    <li class="header__search-selected-item header__search-selected-item--active">
+                                        <span>Trong SHOP</span>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </li>
+                                    <li class="header__search-selected-item"><span>Ngoài SHOP</span>
+                                        <i class="fa-solid fa-eye-slash"></i>
+                                    </li>
+                                </ul>
 
-                </ul>
-                      
-                
+                            </div>
+                            <btuton class="header__search-option-btn">
+                                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </btuton>
+                        </div>
+                        <div class="header__cart">
+                            <i class="header__cart-icon fa-solid fa-bag-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!--class no cart :header__cart-list-nocart -->
+                            <div class="header__cart-list ">
+                                <img src="images/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-text">
+                                    Chưa Có Sản Phẩm
+                                </span>
+                                <h3 class="header__cart-heading">Sản Phẩm Đã Thêm</h3>
+                                <ul class="header__cart-list-item">
+                                    <ui class="header__cart-item">
+                                        <img src="img/giaylolita.jpg" alt="eror" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Giày lolita</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">310.000đ</span>
+                                                    <span class="header__cart-item-multipl">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Màu : đen</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </ui>
+                                    <ui class="header__cart-item">
+                                        <img src="img/sandal/như QS.webp" alt="eror" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Giày sandal</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">500.000đ</span>
+                                                    <span class="header__cart-item-multipl">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Màu : trắng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </ui>
+                                    <ui class="header__cart-item">
+                                        <img src="img/caogot/lung linh.jpg" alt="eror" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Giày cao gót</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">590.000đ</span>
+                                                    <span class="header__cart-item-multipl">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decription">Màu : trắng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </ui>
+                                </ul>
+                                <button class="cart__view-item">Xem Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+                <div class="slider">
+                    <div class="list">
+                        <div class="item">
+                            <img src="img/giaycongso.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/xịn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/gìay bẩn.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/sandal/cơ bản.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/boot/boot nữ MT đen.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><</button>
+                        <button id="next">></button>
+                    </div>
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            <div class="container">
+                <div class="intro">
+                    <div class="intro__list">
+                        <a href="img/love.jpg">
+                            <div class="intro-item">
+                                <img src="img/love.jpg" alt="">
+                                <h2>Thông Dụng</h2>
+                            </div>
+                        </a>
+                        <a href="img/congso/đơn giản.jpg">
+                            <div class="intro-item">
+                                <img src="IMG/congso/đơn giản.jpg" alt="">
+                                <h2>Bán Chạy</h2>
+                            </div>
+                        </a>
+                        <a href="img/bánh mì.webp">
+                            <div class="intro-item">
+                                <img src="IMG/bánh mì.webp" alt="">
+                                <h2>Giảm Giá</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__item">
+                    <div><h2>GIÀY THỂ THAO</h2></div>
+                    <div><h3><a href="thethao.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="IMG/thể thao/fashion xanh.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Giày thể thao trắng xanh</h2>
+                                
+                                <span class="price">504.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="IMG/thể thao/hồng nam tính.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Hồng nam tính</h2>
+                                
+                                <span class="price">560.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/thể thao//Trắng trong trẻo.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Trắng sang chảnh</h2>
+                                
+                                <span class="price">145.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY CAO GÓT</h2></div>
+                    <div><h3><a href="caogot.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/caogot/cao quá chời.webp" alt="">
+                            <div class="product-info">
+                                <h2>Giày nấm lùn</h2>
+                                
+                                <span class="price">1.383.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/caogot/trắng xanh.webp" alt="">
+                            <div class="product-info">
+                                <h2>Giày quý cô</h2>
+                                
+                                <span class="price">2.222.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/caogot/trong suốt sang.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Giày này dạ tiệc</h2>
+                                
+                                <span class="price">7.000.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY BOOT</h2></div>
+                    <div><h3><a href="boot.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/boot/boot nữ chiến binh màu trắng.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Boot nữ chiến binh</h2>
+                                
+                                <span class="price">3.000.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/boot/boot nữ wheat nubock.webp" alt="">
+                            <div class="product-info">
+                                <h2>Boot nữ wheat nubock</h2>
+                                
+                                <span class="price">900.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/boot/boot nữ martin màu nâu.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Boot nữ martin</h2>
+                                
+                                <span class="price">7.100.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY SANDAL</h2></div>
+                    <div><h3><a href="sandal.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="IMG/sandal/cơ bản.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Giày học sinh</h2>
+                                
+                                <span class="price">250.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/sandal/da xinh.webp" alt="">
+                            <div class="product-info">
+                                <h2> Giày da đơn giản</h2>
+                                
+                                <span class="price">250.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/sandal/đen xì.webp" alt="">
+                            <div class="product-info">
+                                <h2>Đen huyền ảo</h2>
+                                
+                                <span class="price">500.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY CÔNG SỞ</h2></div>
+                    <div><h3><a href="congso.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/congso/bóng lộn.jpg\" alt="">
+                            <div class="product-info">
+                                <h2>Da cá xấu</h2>
+                                
+                                <span class="price">600.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/congso/lổ.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Sự thoải mái</h2>
+                                
+                                <span class="price">420.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/congso/xinh êu.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Thông dụng</h2>
+                                
+                                <span class="price">420.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY ĐẾ XUỒNG</h2></div>
+                    <div><h3><a href="dexuong.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/đế xuồng/sang trọng.webp" alt="">
+                            <div class="product-info">
+                                <h2>Phong cách TQ </h2>
+                                
+                                <span class="price">900.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/đế xuồng/trắng sang.jpg" alt="">
+                            <div class="product-info">
+                                <h2>Xinh yêu</h2>
+                                
+                                <span class="price">600.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/đế xuồng/xa lánh.webp" alt="">
+                            <div class="product-info">
+                                <h2>Yêu thiên nhiên</h2>
+                                
+                                <span class="price">400.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <div><h2>GIÀY LOLITA</h2></div>
+                    <div><h3><a href="lolita.html">Xem Thêm ></a></h3></div>
+                </div>
+                <div class="container__item">
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/lolita/blackpinh.webp" alt="">
+                            <div class="product-info">
+                                <h2>Blackpink </h2>
+                                
+                                <span class="price">900.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/lolita/đi tìm hoàng tưtr.jpg" alt="">
+                            <div class="product-info">
+                                <h2>TÌm hoàng tử</h2>
+                                
+                                <span class="price">1.500.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="thongtinthanhtoan.html" style="text-decoration: none;">
+                        <div class="product-box">
+                            <img src="img/lolita/long lá.webp" alt="">
+                            <div class="product-info">
+                                <h2>Búp bê</h2>
+                                
+                                <span class="price">1.700.000đ</span>
+                                <button>Thêm Vào Giỏ Hàng</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
-           
-        </div>
-         
-            <!-- hết main-content -->
-
-        
-        
-            <!-- .......... -->
-            <div id="footer-buttom">
-
+            <div class="content">
+                <div class="content__list">
+                    <div class="content__item">
+                        <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <h2>MIỄN PHÍ VẬN CHUYỂN</h2>
+                        <P>Với chính sách ưu đãi với khách hàng tại Tp. Hồ Chí Minh và hỗ trợ chi phí vận chuyển trên toàn quốc.</P>
+                    </div>
+                    <div class="content__item">
+                        <div class="icon"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></div>
+                        <h2>BẢO HÀNH 12 THÁNG</h2>
+                        <p>Giúp cho khách hàng yên tâm sử dụng phẩm của mình lên đến 12 tháng</p>
+                    </div>
+                    <div class="content__item">
+                        <div class="icon"><i class="fa-solid fa-people-robbery"></i></div>
+                        <h2>HỖ TRỢ DÀI LÂU</h2>
+                        <p>Sam bán giày hỗ trợ khách hàng liên tục và có chính sách hỗ trợ cũng như giảm giá cho khách hàng đã từng mua giày.</p>
+                    </div>
+                </div>
+                <div class="content__banner">
+                    <div class="footer__content">
+                        <img src="img/logo/logoSAm.jpg" alt="">
+                        
+                        <button>Xem Thêm</button>
+                    </div>
+                </div>
             </div>
+            <footer class="footer">
+                <div class="grid">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a href="index.html" class="footer__nav-link header__nav-item-link--separate">TRANG CHỦ</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="thethao.html" class="footer__nav-link header__nav-item-link--separate">GIÀY THỂ THAO</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="caogot.html" class="footer__nav-link header__nav-item-link--separate">GIÀY CAO GÓT</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="lolita.html" class="footer__nav-link header__nav-item-link--separate">GIÀY LOLITA</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="boot.html" class="footer__nav-link header__nav-item-link--separate">GIÀY BOOT</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="sandal.html" class="footer__nav-link header__nav-item-link--separate">GIÀY SANDAL</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="dexuong.html" class="footer__nav-link header__nav-item-link--separate">GIÀY ĐẾ XUỒNG</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="congso.html" class="footer__nav-link header__nav-item-link--separate">GIÀY CÔNG SỞ</a>
+                        </li>
+                        </ul>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link footer__nav-link-icon"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link footer__nav-link-icon"><i class="fa-brands fa-instagram"></i></a> 
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link footer__nav-link-icon"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link footer__nav-link-icon"><i class="fa-regular fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                        <div id="scrollToTop">
+                            <a href="#top">^</a>
+                        </div>
+                    </nav>
+                    <div class="footer-mail">
+                        <h3>Nguyễn Thị Khả Nhi || DH52101695 ||</h3>
+                        <h3>D21_TH02 || Nhóm 12 || Thứ 6 Ca 2</h3>
+                     
+                    </div>
+                </div>
+            </footer>
         </div>
-    </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-                      <script>
-                        //$(document).ready(function(){
-                          $('.owl-carousel').owlCarousel({
-                            items: 1,
-                            loop:true,
-                            margin:5,
-                            autoplay:true,
-                            autoplayTimeout:3000,
-                            autoplayHoverPause:true,
-                          });
-                        // });
-     </script>
-     <script>
-        $(document).ready(function(){
-            $('#toggle').click(function() {
-                $('nav').slideToggle();
-            });
-        })
-    </script>
-
-    </script>
-
-
-</body>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
 </html>
